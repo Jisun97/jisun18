@@ -20,6 +20,7 @@ public class QbankMajorCActivity extends AppCompatActivity {
     public void clickbtnfinish(View view){
         radioButton = findViewById(R.id.right);
 
+        
         if(radioButton.isChecked()){
             Intent intent = new Intent(this,QbankTrueExActivity.class);
             startActivity(intent);
