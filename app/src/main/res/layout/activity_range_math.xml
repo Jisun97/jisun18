@@ -44,12 +44,14 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="지수함수"
+            android:onClick="clickbtnjisu"
             android:textSize="18sp" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:onClick="clickbtnlog"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="로그함수"
             android:textSize="18sp" />
@@ -58,6 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:onClick="clickbtnsam"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="삼각함수"
             android:textSize="18sp" />
@@ -66,6 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:onClick="clickbtnequ"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="등차-등비수열"
             android:textSize="18sp" />
@@ -74,6 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:onClick="clickbtnsigma"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="수열의 합"
             android:textSize="18sp" />
@@ -86,6 +91,7 @@
         android:layout_height="wrap_content"
         android:background="#00FF0000"
         android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        android:onClick="clickbtnmath2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_forward"
         app:layout_constraintStart_toStartOf="parent" />

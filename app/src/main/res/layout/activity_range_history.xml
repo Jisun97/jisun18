@@ -44,6 +44,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="전근대 한국사의 이해"
+            android:onClick="clickbtnhistroya"
             android:textSize="18sp" />
 
         <RadioButton
@@ -52,12 +53,14 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="근대국민국가 수립"
+            android:onClick="clickbtnhistroyb"
             android:textSize="18sp" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:onClick="clickbtnhistroyc"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="일제강점기와 민족운동의 전개"
             android:textSize="18sp" />
@@ -66,6 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:onClick="clickbtnhistroyd"
             android:fontFamily="@font/notosanscjkkr_medium"
             android:text="대한민국의 발전"
             android:textSize="18sp" />
@@ -78,6 +82,7 @@
         android:layout_height="wrap_content"
         android:background="#00FF0000"
         android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        android:onClick="clickbtnhistory2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_forward"
         app:layout_constraintStart_toStartOf="parent" />

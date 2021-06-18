@@ -41,4 +41,12 @@ public class RangeSubjectActivity extends AppCompatActivity {
 
         finish();
     }
+
+    public void clickbtn2(View view){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+
+        finish();
+    }
+
 }

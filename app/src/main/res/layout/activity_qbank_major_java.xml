@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:paddingHorizontal="20dp"
     android:paddingVertical="70dp"
-    tools:context=".QbankExActivity">
-
+    tools:context=".QbankMajorJavaActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout10"
         android:layout_width="wrap_content"
@@ -39,9 +38,9 @@
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="350dp"
         android:layout_marginTop="30dp"
-        android:src="@drawable/qbank_problem_ex1"
+        android:src="@drawable/java"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout10" />
@@ -72,6 +71,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:id="@+id/right"
+
             android:text="3번" />
 
         <RadioButton
@@ -94,6 +95,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/round_box"
         android:backgroundTint="#5215FC"
+        android:onClick="clickbtnfinish"
         android:fontFamily="@font/notosanscjkkr_bold"
         android:padding="0dp"
         android:text="완료"
